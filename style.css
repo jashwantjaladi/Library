@@ -1,0 +1,159 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: black;
+	background-color: #130f40;
+	background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+	font-family: 'MonterchiBook'
+	
+}
+button
+{
+	font-family: 'MonterchiBook'
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.book-details
+{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 50px;
+	gap: 10px;
+	
+}
+
+.add-book
+{
+	border-radius: 50%;
+	border: 5px solid violet;
+	font-size: 50px;
+	width: 100px;
+	height: 100px;
+	color: violet;
+	background-color: black;
+	box-shadow: 0px 0px 4px 4px violet;
+	margin: 30px;
+}
+.add-book:hover
+{
+	background-color: blueviolet;
+}
+.add-book:active
+{
+	background-color: darkorchid;
+}
+
+label
+{
+	color: white;
+	font-size: large;
+}
+
+input:hover
+{
+	box-shadow: 0px 0px 4px 4px violet;
+}
+#checkStatus
+{
+	width: 20px;
+	height: 20px;
+}
+.submit
+{
+
+	border: 5px solid violet;
+	font-size: 24px;
+	color: violet;
+	background-color: black;
+	box-shadow: 0px 0px 4px 4px violet;
+	margin: 30px;
+	padding: 10px;
+	font-size: larger;
+}
+.submit:hover
+{
+	background-color: blueviolet;
+}
+.submit:active
+{
+	background-color: darkorchid;
+}
+
+.card
+{
+	color: white;
+	display: flex;
+	gap: 20px;
+	padding: 50px;
+}
+.content
+{
+	line-height: 1.6;
+	margin-left: 20px;
+	border: 3px solid violet;
+	padding: 30px;
+	margin-bottom: 30px;
+
+}
+.removeel
+{
+	background-color: black;
+	color: white;
+	border: 2px solid violet;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 4px
+}
+.removeel:hover
+{
+	box-shadow: 0px 0px 2px 2px violet;
+	background-color: blueviolet;
+}
+.removeel:active
+{
+	background-color: darkorchid;
+}
+.container
+{
+	display: flex;
+}
